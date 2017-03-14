@@ -1,0 +1,19 @@
+.text {
+  font-family: "Calibri", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+a:hover {
+  color: rgba(137, 15, 15, 0.6);
+}
+
+tr:nth-child(even) {
+  background: #CCC
+}
