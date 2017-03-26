@@ -17,13 +17,14 @@ h3::first-letter {
 }
 
 h4 {
-  background-color: rgba(137, 15, 15, 0.6);
+  background-color: rgba(137, 15, 15, .6);
   font-size: 20px;
   color: white;
 }
 
 p:nth-child(even) {
-  background: rgba(137, 15, 15, .075);
+  background: rgba(137, 15, 15, 1);
+  color: white;
 }
 
 nav {
