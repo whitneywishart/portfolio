@@ -34,45 +34,20 @@ nav {
 }
 
 .highlight{
-  /*background: rgb(0, 255, 255);
-  font-size: 2rem;*/
-  /*margin: 0 auto;
-  text-align: center;
-
-  height: 15vmin;
-  line-height: 15vmin;
-  width: 15vmin;*/
-
-  /*position: absolute;*/
-  /*bottom: 1%;*/
-  /*left: 10%;*/
-
-  /* Here's the Magic! every style or just color (or whatever), how long, physics/timing function, delay*/
   transition: all 2s ease 0s;
 }
 
-/* INTRO TO TRANSITIONS */
 .highlight:hover {
-  /*background: rgb(255, 0, 255);*/
   border-radius: 50%;
-  /*color: rgb(0, 255, 255);*/
-
-  /* SIZE CHANGES*/
-  /*height: 20vmin; width: 20vmin;*/
-
-  /* POSITION */
-  /*left: 40%;*/
-
-   /*TRANSFORMATIONS there are dozens of these*/
-  /*transform: rotate(360deg);*/
-  /*transform: rotate3d(1, 1, 1, 360deg);*/
 }
 
 a:hover {
   color: rgba(137, 15, 15, 0.6);
 }
 
+
 footer {
+  margin-top: 5rem;
   background-color: rgba(134, 18, 18, 0.02);
 }
 
