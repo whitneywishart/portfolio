@@ -19,10 +19,11 @@ h3::first-letter {
 h4 {
   background-color: rgba(137, 15, 15, 0.6);
   font-size: 20px;
+  color: white;
 }
 
-h4 {
-  color: white;
+p:nth-child(even) {
+  background: rgba(137, 15, 15, .075);
 }
 
 nav {
